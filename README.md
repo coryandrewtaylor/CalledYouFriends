@@ -1,10 +1,7 @@
 # "I Have Called You Friends": Social Networks and Characterization in the Gospels
 
-This is a test[1] to see whether GitHub-Flavored Markdown[1] footnotes[1] work with GitBook.[1]
+Here is a paragraph with an footnote <span id="a1">[[1]](#f1)</span>.
 
 ## Footnotes
 
-[1] This
-[1] is
-[1] a
-[1] test.
+1. <span id="f1"></span> This is a footnote. [$\hookleftarrow$](#a1)
