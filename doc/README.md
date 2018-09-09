@@ -504,7 +504,7 @@ to include other genres, such as Greco-Roman novels (as in Tolbert
 The appendix will describe the methodology I followed in producing and
 analyzing my network data.
 
-## Works Cited [works-cited]
+## Works Cited
 
 Agarwal, Apoorv, Anup Kotalwar, Jiehan Zheng, and Owen Rambow. 2013.
 “SINNET: Social Interaction Network Extractor from Text.” In *Sixth
