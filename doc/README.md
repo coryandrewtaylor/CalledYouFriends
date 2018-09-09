@@ -53,8 +53,7 @@ minority and majority. Third, it will help to answer the longstanding
 question about the Gospels’ genre, which has been a matter of debate for
 decades.
 
-[^1]: For ease of expression, I refer to these five works as “Burridge’s
-    corpus.”
+[^1]: For ease of expression, I refer to these five works as “Burridge’s corpus.”
 
 ## State of the Question
 
