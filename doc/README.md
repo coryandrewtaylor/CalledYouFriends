@@ -5,43 +5,40 @@
 My dissertation uses social network analysis (SNA) to situate the New
 Testament Gospels within the context of other Greco-Roman
 biographies–works to which, Burridge has shown, the Gospels bear a
-“family resemblance” (Burridge [2004](#ref-Burridge2004WhatAre), 37–43
-*et passim*). I examine the characterization in the four canonical
-Gospels, as well as Burridge’s sample of “later Graeco-Roman *bioi*”
-(viz. Tacitus’ *Agricola*, Plutarch’s *Cato Minor*, Lucian’s *Demonax*,
-Philostratus’ *Apollonius of Tyana*, and Suetonius’ *Lives of the
-Caesars*).[^1] More broadly, my goal is twofold: to propose new methods
-for the interpretation of the Gospels through an innovative “distant
-reading” (Moretti [2013](#ref-Moretti2013DistantReading)) strategy for
-the analysis of literary characters and to make a contribution to the
-field of digital humanities by suggesting new ways of applying social
-network analysis to the study of literature.
+“family resemblance” (Burridge 2004, 37–43 *et passim*). I examine the
+characterization in the four canonical Gospels, as well as Burridge’s
+sample of “later Graeco-Roman *bioi*” (viz. Tacitus’ *Agricola*,
+Plutarch’s *Cato Minor*, Lucian’s *Demonax*, Philostratus’ *Apollonius
+of Tyana*, and Suetonius’ *Lives of the Caesars*).[^1] More broadly, my
+goal is twofold: to propose new methods for the interpretation of the
+Gospels through an innovative “distant reading” (Moretti 2013) strategy
+for the analysis of literary characters and to make a contribution to
+the field of digital humanities by suggesting new ways of applying
+social network analysis to the study of literature.
 
 The bulk of the dissertation will be devoted to testing current ideas
 about characterization in the Gospels and developing a theory of
 character that takes into account characters’ structural roles in each
-of the Gospels. As Bennema ([2014](#ref-Bennema2014Theory)) notes, very
-little work has been done to create a theory of character that applies
-to all four Gospels. This dissertation will fill that gap by 1)
-measuring characters’ degree and centrality (which are standard network
-measurements, well established in the literature) to quantify
-characters’ plot functions, and 2) developing a set of criteria that
-determine where a character falls on the spectrum/a of characterization.
-I will nuance that portrait by performing experiments on the networks to
-uncover circumstances under which a character’s role might change.
-Throughout, I will compare characterization in the Gospels and
-Burridge’s corpus, in order to expand my theory of character to
-Greco-Roman biography in general. The dissertation will conclude with an
-exploration of the Gospels’ genre. The genre of the Gospels is still
-largely an open question; however, as Ardanuy and Sporleder
-([2014](#ref-ArdanuySporleder2014Clustering)) have recently shown,
-social networks are useful for classifying works according to genre.
-Incorporating my data on characters’ structural roles with additional
-measures of network structure (e.g., small-world-ness and
-assortativity), I test how far the Gospels’ resemblance to other
-biographies extends: whether it is primarily at the syntactic level, as
-in Burridge’s work, or if it also includes the structures of the works’
-plots.
+of the Gospels. As Bennema (2014) notes, very little work has been done
+to create a theory of character that applies to all four Gospels. This
+dissertation will fill that gap by 1) measuring characters’ degree and
+centrality (which are standard network measurements, well established in
+the literature) to quantify characters’ plot functions, and 2)
+developing a set of criteria that determine where a character falls on
+the spectrum/a of characterization. I will nuance that portrait by
+performing experiments on the networks to uncover circumstances under
+which a character’s role might change. Throughout, I will compare
+characterization in the Gospels and Burridge’s corpus, in order to
+expand my theory of character to Greco-Roman biography in general. The
+dissertation will conclude with an exploration of the Gospels’ genre.
+The genre of the Gospels is still largely an open question; however, as
+Ardanuy and Sporleder (2014) have recently shown, social networks are
+useful for classifying works according to genre. Incorporating my data
+on characters’ structural roles with additional measures of network
+structure (e.g., small-world-ness and assortativity), I test how far the
+Gospels’ resemblance to other biographies extends: whether it is
+primarily at the syntactic level, as in Burridge’s work, or if it also
+includes the structures of the works’ plots.
 
 This dissertation will be an important contribution to New Testament
 Studies in several ways. For one, it is the first monograph-length
@@ -65,41 +62,34 @@ decades.
 
 Social network analysis has long been a productive methodology in NT
 studies, especially in Pauline studies. Chow’s *Patronage and Power*
-([1992](#ref-Chow1992Patronage)), which uses SNA to study the power
-relations in the church at Corinth, is seminal. Malina and Pilch’s
-*Social-Science Commentary on the Letters of Paul*
-([2006](#ref-MalinaPilch2006SocSciPaul)) also uses SNA throughout,
-though social networks are not the main focus of the work. In addition,
-Malina has edited a series of monographs covering individual members of
-Paul’s social network.
+(1992), which uses SNA to study the power relations in the church at
+Corinth, is seminal. Malina and Pilch’s *Social-Science Commentary on
+the Letters of Paul* (2006) also uses SNA throughout, though social
+networks are not the main focus of the work. In addition, Malina has
+edited a series of monographs covering individual members of Paul’s
+social network.
 
 Given how useful SNA has been to scholars of Paul, it is somewhat
 surprising that more Gospels scholars have not adopted it. As with
 Malina and Pilch’s commentary on Paul, Malina and Rohrbaugh have used
 SNA in their *Social-Science Commentaries* on the Synoptic Gospels
-(Malina and Rohrbaugh [2003](#ref-MalinaRohrbaugh2003SocSciSynoptics))
-and on John (Malina and Rohrbaugh
-[1998](#ref-MalinaRohrbaugh1998SocSciJohn)), though their analysis
-focuses exclusively on the “gossip network” surrounding Jesus. In
-addition, Duling has read his reconstruction of the historical Jesus
-movement through a network-analytical lens in a series of articles
-(Duling [1999](#ref-Duling1999SNA1); Duling [2000](#ref-Duling2000SNA2);
-reprinted together as Duling [2002](#ref-Duling2002SNACombo)). However,
-his argument treats SNA as a theory in itself, rather than–as has long
-been acknowledged in sociological network analysis–a means of testing
-and producing theories.[^2] Finally, Miyake has studied the Gospels’
-networks in several presentations at Digital Humanities conferences
-(Miyake [2007](#ref-Miyake2007Network); Miyake
-[2008](#ref-Miyake2008Investigating); Miyake
-[2009](#ref-Miyake2009Capturing); Akama, Miyake, and Jung
-[2011](#ref-AkamaMiyakeJung2011Automatic)); however, her work focuses
-primarily on the semantic networks of NT Greek, with social networks
-only as a secondary emphasis. In all, no sustained analysis has been
-performed on the social networks of literary characters in the Gospels,
-leaving a sizeable gap that this dissertation hopes to fill.
+(Malina and Rohrbaugh 2003) and on John (Malina and Rohrbaugh 1998),
+though their analysis focuses exclusively on the “gossip network”
+surrounding Jesus. In addition, Duling has read his reconstruction of
+the historical Jesus movement through a network-analytical lens in a
+series of articles (Duling 1999; Duling 2000; reprinted together as
+Duling 2002). However, his argument treats SNA as a theory in itself,
+rather than–as has long been acknowledged in sociological network
+analysis–a means of testing and producing theories.[^2] Finally, Miyake
+has studied the Gospels’ networks in several presentations at Digital
+Humanities conferences (Miyake 2007; Miyake 2008; Miyake 2009; Akama,
+Miyake, and Jung 2011); however, her work focuses primarily on the
+semantic networks of NT Greek, with social networks only as a secondary
+emphasis. In all, no sustained analysis has been performed on the social
+networks of literary characters in the Gospels, leaving a sizeable gap
+that this dissertation hopes to fill.
 
-[^2]: On SNA as method vs. theory, see Wasserman and Faust
-    ([1994](#ref-WassermanFaust1994SNA)), p. 5.
+[^2]: On SNA as method vs. theory, see Wasserman and Faust (1994), p. 5.
 
 ### Literary Social Network Analysis
 
@@ -109,39 +99,31 @@ fields such as natural language processing \[NLP\]) and narrative
 criticism of the Gospels. Literary SNA is an active field, with many
 important works being published in the past decade. Moretti’s work has
 been especially important. He uses network analysis for book history in
-his *Graphs, Maps, Trees* (Moretti
-[2005](#ref-Moretti2005GraphsMapsTrees)) and for literary criticism in
-his article/pamphlet “Network Theory, Plot Analysis” (Moretti
-[2011](#ref-Moretti2011NewLeft)[a](#ref-Moretti2011NewLeft); expanded
-and republished as Moretti
-[2011](#ref-Moretti2001LitLab)[b](#ref-Moretti2001LitLab)); in the
-latter, he uses graph analysis to study the plots of *Hamlet*, *Our
-Mutual Friend*, and *The Story of the Stone*. Though Moretti was far
-from the first author to incorporate SNA into literary studies, he
-brought the methodology into the mainstream, tying it to his broader
-approach of distant reading.
+his *Graphs, Maps, Trees* (Moretti 2005) and for literary criticism in
+his article/pamphlet “Network Theory, Plot Analysis” (Moretti 2011a;
+expanded and republished as Moretti 2011b); in the latter, he uses graph
+analysis to study the plots of *Hamlet*, *Our Mutual Friend*, and *The
+Story of the Stone*. Though Moretti was far from the first author to
+incorporate SNA into literary studies, he brought the methodology into
+the mainstream, tying it to his broader approach of distant reading.
 
 Researchers at Columbia University have also been prolific in this area.
-Elson, Dames, and McKeown ([2010](#ref-ElsonDamesMcKeown2010Extracting))
-is particularly influential, due to the paper’s conclusions: the authors
-use social networks to disprove a longstanding theory about
-characterization in nineteenth-century novels set in rural, as opposed
-to urban, areas. More recently, Columbia-school SNA has focused on
-creating standalone tools for building and/or studying literary social
-networks (for instance, `Scheherezade` (Elson
-[2012](#ref-Elson2012Modeling)) and `SINNET` (Agarwal et al.
-[2013](#ref-Agarwal2013SINNET))). The Columbia-school approach contrasts
-well with Moretti’s. Though Moretti manually draws the graphs in
-“Network Theory, Plot Analysis” and avoids the “stern adulthood of
-statistics” (Moretti
-[2011](#ref-Moretti2001LitLab)[b](#ref-Moretti2001LitLab), 3), his
-hand-crafted networks contain all the characters from the works he
-studies. The Columbia scholars, on the other hand, rely on automatic
-network extraction; as such, their analyses, while very powerful, suffer
-from incomplete data, due to the sheer difficulty of detecting unnamed
-characters (Vala et al. [2015](#ref-ValaEtAl2015MrBennet)). Elson,
-Dames, and McKeown’s approach, for example, only detected 51% of the
-speech in the books they examined (though, among the speech it did
+Elson, Dames, and McKeown (2010) is particularly influential, due to the
+paper’s conclusions: the authors use social networks to disprove a
+longstanding theory about characterization in nineteenth-century novels
+set in rural, as opposed to urban, areas. More recently, Columbia-school
+SNA has focused on creating standalone tools for building and/or
+studying literary social networks (for instance, `Scheherezade` (Elson
+2012) and `SINNET` (Agarwal et al. 2013)). The Columbia-school approach
+contrasts well with Moretti’s. Though Moretti manually draws the graphs
+in “Network Theory, Plot Analysis” and avoids the “stern adulthood of
+statistics” (Moretti 2011b, 3), his hand-crafted networks contain all
+the characters from the works he studies. The Columbia scholars, on the
+other hand, rely on automatic network extraction; as such, their
+analyses, while very powerful, suffer from incomplete data, due to the
+sheer difficulty of detecting unnamed characters (Vala et al. 2015).
+Elson, Dames, and McKeown’s approach, for example, only detected 51% of
+the speech in the books they examined (though, among the speech it did
 detect, it attributed quotes to the correct characters 95% of the time).
 My approach will strike a balance between the two extremes: initially, I
 will build the networks automatically, using a machine learning
@@ -155,73 +137,59 @@ they are complete.
 Narrative criticism of the Gospels, and especially the study of
 characterization in them, is likewise thriving. Skinner and Bennema are
 the major recent scholars of Gospels characterization. Skinner’s revised
-dissertation (Skinner [2009](#ref-Skinner2009Conflict)) argues that many
-of John’s characters have imperfect faith in Jesus, as compared with the
-ideal faith set forth in John’s prologue (Jn 1:1-18). On that basis, he
-argues against Riley’s, DeConick’s, and Pagels’ views that John’s
-portrayal of Thomas was a polemic against a Gnostic community
-responsible for the Gospel of Thomas. Skinner has also edited or
-co-edited several important books on Markan and Johannine
-characterization (Iverson and Skinner
-[2011](#ref-IversonSkinner2011MarkStory); Skinner
-[2013](#ref-Skinner2013Characters); Hauge and Skinner
-[2014](#ref-HaugeSkinner2014CharacterStudies)).
+dissertation (Skinner 2009) argues that many of John’s characters have
+imperfect faith in Jesus, as compared with the ideal faith set forth in
+John’s prologue (Jn 1:1-18). On that basis, he argues against Riley’s,
+DeConick’s, and Pagels’ views that John’s portrayal of Thomas was a
+polemic against a Gnostic community responsible for the Gospel of
+Thomas. Skinner has also edited or co-edited several important books on
+Markan and Johannine characterization (Iverson and Skinner 2011; Skinner
+2013; Hauge and Skinner 2014).
 
-Most of Bennema’s work (e.g. Bennema
-[2009](#ref-Bennema2009Theory)[a](#ref-Bennema2009Theory); Bennema
-[2009](#ref-Bennema2009Encountering)[b](#ref-Bennema2009Encountering);
-Bennema [2013](#ref-Bennema2013Comprehensive)) has been on John, with an
-emphasis on comparing Johannine characterization to other literature and
-attempting to quantify, by means of a rubric, where a given character
-falls on the spectrum between majority and minority. His most recent
-book (Bennema [2014](#ref-Bennema2014Theory)) applies that same method
-to characters in Mark, John, and Acts, in order to develop a unified
-theory of characterization in NT narrative–the only work thus far with
-this goal.
+Most of Bennema’s work (e.g. Bennema 2009a; Bennema 2009b; Bennema 2013)
+has been on John, with an emphasis on comparing Johannine
+characterization to other literature and attempting to quantify, by
+means of a rubric, where a given character falls on the spectrum between
+majority and minority. His most recent book (Bennema 2014) applies that
+same method to characters in Mark, John, and Acts, in order to develop a
+unified theory of characterization in NT narrative–the only work thus
+far with this goal.
 
 In addition, many scholars have studied the minor characters in the
-Gospels (for instance Williams [1994](#ref-Williams1994Other); Malbon
-[2000](#ref-Malbon2000Company); Conway [2002](#ref-Conway2002Speaking);
-Howard [2006](#ref-Howard2006Significance); Hylen
-[2009](#ref-Hylen2009Imperfect)). The most comprehensive approach,
-however, is Hunt, Tolmie, and Zimmermann
-([2013](#ref-HuntTolmieZimmerman2013Seventy)), which brings together
-studies of 70 characters in John. Their work stands in contrast to the
-rest of the literature, which tends to study either a single character
-(as in Burnett ([1993](#ref-Burnett1993Characterization)), which looks
-at Peter) or a handful of characters (as in the second half of Skinner
-([2013](#ref-Skinner2013Characters)), which comprises chapters on eight
+Gospels (for instance Williams 1994; Malbon 2000; Conway 2002; Howard
+2006; Hylen 2009). The most comprehensive approach, however, is Hunt,
+Tolmie, and Zimmermann (2013), which brings together studies of 70
+characters in John. Their work stands in contrast to the rest of the
+literature, which tends to study either a single character (as in
+Burnett (1993), which looks at Peter) or a handful of characters (as in
+the second half of Skinner (2013), which comprises chapters on eight
 characters in John).
 
 Bakhtinian theory (part of the theoretical backbone of my dissertation;
 see below) has also periodically made an appearance in studies of the
 Gospels’ characterization. The most relevant studies are McCracken
-([1993](#ref-McCracken1993Interdividuality)), which brings Bakhtin’s
-theory of interindividuality together with “the Kierkegaardian paradigm
-of self” (McCracken [1993](#ref-McCracken1993Interdividuality), 34) to
+(1993), which brings Bakhtin’s theory of interindividuality together
+with “the Kierkegaardian paradigm of self” (McCracken 1993, 34) to
 create a theory of the relationships between biblical characters; Barnet
-([2003](#ref-Barnet2003Aesthetics)) and Sung
-([2008](#ref-Sung2008Infants)), both of which examine characters’ roles
-in Matthew using Bakhtin’s aesthetics; and Webb
-([2008](#ref-Webb2008Threshold)), which examines several Markan passages
-in light of Bakhtin’s concepts of dialogue, genre-memory, chronotopes,
-and carnivalesque.[^3]
+(2003) and Sung (2008), both of which examine characters’ roles in
+Matthew using Bakhtin’s aesthetics; and Webb (2008), which examines
+several Markan passages in light of Bakhtin’s concepts of dialogue,
+genre-memory, chronotopes, and carnivalesque.[^3]
 
 [^3]: For Bakhtin, “at a fundamental level, all language and thought is
     dialogical: each word or thought presupposes an answer. . . .
     \[E\]ach person, although having irreducible moral status, cannot be
-    considered to have a consciousness in isolation” (Webb
-    [2008](#ref-Webb2008Threshold), 19). In the same vein, he conceives
-    of genres as constantly evolving, with each writer engaging in
-    dialogue with previous manifestations of the genre.
+    considered to have a consciousness in isolation” (Webb 2008, 19). In
+    the same vein, he conceives of genres as constantly evolving, with
+    each writer engaging in dialogue with previous manifestations of the
+    genre.
 
     His “chronotopes” are the way space and time meld together in
     literature: “Time, as it were, thickens, takes on flesh, becomes
     artistically visible; likewise, space becomes charged and responsive
     to the movements of time, plot and history. This intersection of
     axes and fusion of indicators characterizes the artistic chronotope”
-    (Bakhtin, Medvedev, and Wehrle
-    [1991](#ref-BakhtinMedvedev1991FormalMethod), 131).
+    (Bakhtin, Medvedev, and Wehrle 1991, 131).
 
     Finally, he sees the medieval religious carnival, in which the
     established order is upended, as continuing after the Renaissance in
@@ -233,30 +201,26 @@ and carnivalesque.[^3]
     > codes in the work of creating new ones seemingly designed
     > exclusively to displace old ones, and that superimposes one
     > paradox upon another until the original remains forever hidden,
-    > undisturbed and unseen (Danow [1995](#ref-Danow1995Spirit), 63;
-    > cited in Webb [2008](#ref-Webb2008Threshold), 54).
+    > undisturbed and unseen (Danow 1995, 63; cited in Webb 2008, 54).
 
 ## Theoretical Influences
 
 My dissertation mainly relies on formalist theory. The most obvious
 connection is with the quantitative formalism espoused by the members of
 the Stanford Literary Lab and its alumni–especially Allison et al.
-([2011](#ref-AllisonEtAl2011Quantitative)) and Moretti
-([2011](#ref-Moretti2001LitLab)[b](#ref-Moretti2001LitLab)).[^4] In
-addition, I use formalist categories that lend themselves to
-interpreting social networks, namely Bakhtin’s (Bakhtin and Emerson
-[1982](#ref-Bakhtin1982Dialogic)) interindividuality and the
-longstanding formalist distinction between story and discourse–what
-Woloch describes as the contrast between “the fictional events that we
-reconstruct through the narrative” and “the narrative’s actual language
-and structure” (Woloch [2003](#ref-Woloch2003OneVsMany), 38).
-Methodologically, I blend various approaches to social network analysis.
-Where much of the literature uses either co-occurrence or dialogue
-networks as the basis for analysis, I use both.[^5] In addition, I
-combine automatic network extraction–which reigns supreme in the
-computer science approaches to SNA–with manual network production, in
-order to ensure that all characters, both named and unnamed, are
-represented adequately.
+(2011) and Moretti (2011b).[^4] In addition, I use formalist categories
+that lend themselves to interpreting social networks, namely Bakhtin’s
+(Bakhtin and Emerson 1982) interindividuality and the longstanding
+formalist distinction between story and discourse–what Woloch describes
+as the contrast between “the fictional events that we reconstruct
+through the narrative” and “the narrative’s actual language and
+structure” (Woloch 2003, 38). Methodologically, I blend various
+approaches to social network analysis. Where much of the literature uses
+either co-occurrence or dialogue networks as the basis for analysis, I
+use both.[^5] In addition, I combine automatic network extraction–which
+reigns supreme in the computer science approaches to SNA–with manual
+network production, in order to ensure that all characters, both named
+and unnamed, are represented adequately.
 
 Theory and method will be tightly intertwined in my dissertation. For
 instance, I take co-occurrence and dialogue networks, with the different
@@ -289,71 +253,60 @@ it generalizes to the other works in my study.
 
 As mentioned above, my dissertation will also extend current
 applications of Bakhtin’s thought to biblical characterization
-(primarily McCracken ([1993](#ref-McCracken1993Interdividuality)) and
-Webb ([2008](#ref-Webb2008Threshold))). Bakhtin’s notion that characters
-exist as a set of interactions between “character zones” applies
-directly to social networks, which are, at base, a set of relationships
-between nodes. SNA, I argue, thus provides a rigorous way to explore how
-a character’s majority or minority relates to their plot function. Take
-centrality and degree, for example: if a character has a high
-eigenvector centrality and high degree–that is, if that character’s node
-is connected to many other important nodes–it is intuitive that s/he
-will be a major character. On the other hand, a character with a high
-betweenness centrality, even if s/he has a low degree, will be an
+(primarily McCracken (1993) and Webb (2008)). Bakhtin’s notion that
+characters exist as a set of interactions between “character zones”
+applies directly to social networks, which are, at base, a set of
+relationships between nodes. SNA, I argue, thus provides a rigorous way
+to explore how a character’s majority or minority relates to their plot
+function. Take centrality and degree, for example: if a character has a
+high eigenvector centrality and high degree–that is, if that character’s
+node is connected to many other important nodes–it is intuitive that
+s/he will be a major character. On the other hand, a character with a
+high betweenness centrality, even if s/he has a low degree, will be an
 important link between different groups of characters; likewise, a high
 closeness centrality will indicate that a character is essential to the
 cohesion of a community within the text, even if s/he does not play a
 central role in the narrative.
 
 Despite formalism’s prominence in my dissertation, I am sympathetic to
-critiques of it, especially that it is reductive (as in Man
-([1971](#ref-deMan1971DeadEnd)) and Man
-([1973](#ref-deMan1973Semiology))) and that it relies on a fallacious
-understanding of the nature of data (Drucker
-[2014](#ref-Drucker2014Graphesis)).[^7] Literary SNA certainly is
-reductive. However, reductiveness does not invalidate SNA as a
-methodology; rather, it simply indicates that SNA should be folded into
-the larger critical enterprise, so that it may benefit, and benefit
-from, other areas of criticism. Likewise, I acknowledge that my
-collecting and analyzing data is fundamentally an interpretive act, not
-a study of the objective nature of the text. As Drucker insists, “data
-are capta, taken not given, constructed as an interpretation of the
-phenomenal world, not inherent in it” (Drucker
-[2014](#ref-Drucker2014Graphesis), 128, emphasis original).
+critiques of it, especially that it is reductive (as in Man (1971) and
+Man (1973)) and that it relies on a fallacious understanding of the
+nature of data (Drucker 2014).[^7] Literary SNA certainly is reductive.
+However, reductiveness does not invalidate SNA as a methodology; rather,
+it simply indicates that SNA should be folded into the larger critical
+enterprise, so that it may benefit, and benefit from, other areas of
+criticism. Likewise, I acknowledge that my collecting and analyzing data
+is fundamentally an interpretive act, not a study of the objective
+nature of the text. As Drucker insists, “data are capta, taken not
+given, constructed as an interpretation of the phenomenal world, not
+inherent in it” (Drucker 2014, 128, emphasis original).
 
 Finally, in addition to formalist literary theory, I will build heavily
 on quantitative and comparative approaches to the Gospels. Like Bennema
-([2009](#ref-Bennema2009Theory)[a](#ref-Bennema2009Theory)), I will
-situate the Gospels’ characterization among other ancient works. And, in
-the same way that Bennema uses his (quasi-quantitative) continua of
-characterization, assigning scores to characters based on their
-“complexity,” “development,” and “inner life” (Bennema
-[2009](#ref-Bennema2009Theory)[a](#ref-Bennema2009Theory); Bennema
-[2013](#ref-Bennema2013Comprehensive)), I will use network measures to
-determine whether a character is major, minor, or somewhere in between.
-However, where Bennema collapses his continua into a single spectrum, I
-allow for the possibility that characters may be major in some ways but
-minor in others, and that those circumstances may not be reflected
-directly in the narrative. Moreover, unlike Bennema, who relies on close
-reading to classify his characters, my interpretation depends on distant
-reading. In this way, my approach is more like Burridge’s
-([2004](#ref-Burridge2004WhatAre)) now classic study of Gospel genre, in
-fact a work of “proto-DH,” which studies patterns of structure and
-syntax instead of narratives proper.
+(2009a), I will situate the Gospels’ characterization among other
+ancient works. And, in the same way that Bennema uses his
+(quasi-quantitative) continua of characterization, assigning scores to
+characters based on their “complexity,” “development,” and “inner life”
+(Bennema 2009a; Bennema 2013), I will use network measures to determine
+whether a character is major, minor, or somewhere in between. However,
+where Bennema collapses his continua into a single spectrum, I allow for
+the possibility that characters may be major in some ways but minor in
+others, and that those circumstances may not be reflected directly in
+the narrative. Moreover, unlike Bennema, who relies on close reading to
+classify his characters, my interpretation depends on distant reading.
+In this way, my approach is more like Burridge’s (2004) now classic
+study of Gospel genre, in fact a work of “proto-DH,” which studies
+patterns of structure and syntax instead of narratives proper.
 
-[^4]: The authors of Allison et al.
-    ([2011](#ref-AllisonEtAl2011Quantitative))–all scholars then working
-    at, or otherwise affiliated with, the Stanford Literary Lab–coined
-    the term “quantitative formalism.” By it, they mean using
-    “precise–ideally, measurable–ways” (Allison et al.
-    [2011](#ref-AllisonEtAl2011Quantitative), 6) to answer traditional
-    formalist questions about genre, with the connotation that their
-    tools were digital.
+[^4]: The authors of Allison et al. (2011)–all scholars then working at,
+    or otherwise affiliated with, the Stanford Literary Lab–coined the
+    term “quantitative formalism.” By it, they mean using
+    “precise–ideally, measurable–ways” (Allison et al. 2011, 6) to
+    answer traditional formalist questions about genre, with the
+    connotation that their tools were digital.
 
-[^5]: Ardanuy and Sporleder
-    ([2014](#ref-ArdanuySporleder2014Clustering)) and Jayannavar et al.
-    ([2015](#ref-JayannavarEtAl2015Validating)) are notable exceptions
-    to this trend.
+[^5]: Ardanuy and Sporleder (2014) and Jayannavar et al. (2015) are
+    notable exceptions to this trend.
 
 [^6]: E.g. at the Sermon on the Mount (Mt 5-7), links would be recorded
     between Jesus, each of the disciples, and the crowd that was
@@ -367,7 +320,7 @@ syntax instead of narratives proper.
     (Trotsky), or they are decadent aesthetes who waste their time
     celebrating beauty and other ineffable, indefinable qualities of
     works of art,” and laments his “own misspent career as a formalist”
-    ([2003](#ref-Mitchell2003StillCrazy), 321, 325 n. 1).
+    (2003, 321, 325 n. 1).
 
 ## Methodology
 
@@ -399,10 +352,9 @@ will reduce the affiliation networks into co-occurrence networks for
 analysis.
 
 For dialogue networks, I follow a rule-based approach to quoted speech
-attribution (Elson and McKeown
-[2010](#ref-ElsonMcKeown2010Attribution)). Afterwards, the process is
-the similar to building co-occurrence networks: manually cleaning the
-data and converting it into a network.
+attribution (Elson and McKeown 2010). Afterwards, the process is the
+similar to building co-occurrence networks: manually cleaning the data
+and converting it into a network.
 
 To ensure that I record network data consistently as I clean the data, I
 will follow a set of guidelines that I developed with Paul Dilley for a
@@ -452,25 +404,22 @@ Seventy-Two”). Moreover, once they are introduced in Lk 10, I will treat
 them like a named disciple and infer that they are part of the
 collective character “Disciples.”
 
-[^8]: I will use Conybeare’s ([1912](#ref-Conybeare1912Philostratus))
-    translation of the *Life of Apollonius*, Long’s
-    ([1892](#ref-StewartLong1892Plutarch)) translation of *Cato Minor*,
-    Brooks’ ([1897](#ref-Brooks1897Tacitus)) translation of *Agricola*,
-    Fowler and Fowler’s ([1905](#ref-FowlerFowler1905Lucian))
-    translation of *Demonax*, and Forester’s
-    ([1893](#ref-Forester1893Suetonius)) translation of the *Lives of
-    the Caesars*. The first work is available on the Internet Archive;
-    the rest are on Project Gutenberg.
+[^8]: I will use Conybeare’s (1912) translation of the *Life of
+    Apollonius*, Long’s (1892) translation of *Cato Minor*, Brooks’
+    (1897) translation of *Agricola*, Fowler and Fowler’s (1905)
+    translation of *Demonax*, and Forester’s (1893) translation of the
+    *Lives of the Caesars*. The first work is available on the Internet
+    Archive; the rest are on Project Gutenberg.
 
     For the Gospels, I will use the 1910 edition of the Revised Version
-    (Moulton et al. [1910](#ref-MoultonEtAl1910RV)). I make this choice
-    for practical reasons: since the syntax of the RV is similar to that
-    of the other translations I will use, I will not need to develop a
-    separate set of rules for my processing to follow, like I would if I
-    used a more modern translation.
+    (Moulton et al. 1910). I make this choice for practical reasons:
+    since the syntax of the RV is similar to that of the other
+    translations I will use, I will not need to develop a separate set
+    of rules for my processing to follow, like I would if I used a more
+    modern translation.
 
 [^9]: On the usefulness of machine learning for SNA, see e.g. De,
-    Dehuri, and Wang ([2012](#ref-DeEtAl2012MLforSNA))
+    Dehuri, and Wang (2012)
 
 ## Structure
 
@@ -491,16 +440,16 @@ the networks.
 ### Chapter 1: Literary SNA, Characterization, and the Gospels
 
 Since Forster distinguished between “flat” and “round” characters in his
-*Aspects of the Novel* (Forster [1927](#ref-Forster1927Aspects)),
-theorists have been concerned with the differences between major and
-minor characters. However, no consensus has emerged on what roles minor
-characters play–or, indeed, even how to determine whether a character is
-minor or major. This chapter provides a survey of existing studies of
-characterization, both from within and without ancient studies, before
-exploring some theoretical complications of literary SNA as a
-methodology, both in terms of the limitations of the current technology
-and the tension between algorithmic precision and the latent
-constructedness inherent in the results.
+*Aspects of the Novel* (Forster 1927), theorists have been concerned
+with the differences between major and minor characters. However, no
+consensus has emerged on what roles minor characters play–or, indeed,
+even how to determine whether a character is minor or major. This
+chapter provides a survey of existing studies of characterization, both
+from within and without ancient studies, before exploring some
+theoretical complications of literary SNA as a methodology, both in
+terms of the limitations of the current technology and the tension
+between algorithmic precision and the latent constructedness inherent in
+the results.
 
 ### Chapter 2: Observing Characterization in Social Networks
 
@@ -518,16 +467,14 @@ its story (e.g. the disciples in the Gospels).
 
 ### Chapter 3: Extending the Networks: Role Algebras
 
-This chapter will use role algebras (Pattison
-[1993](#ref-Pattison1993AlgebraicModels)) combined from the
+This chapter will use role algebras (Pattison 1993) combined from the
 co-occurrence and dialogue networks for each work. For each compound
 relation, beginning with the highest ranked, I will examine the
 resulting networks to see how minor characters’ roles change, if at all,
 documenting and attempting to systematize the circumstances under which
 a minor character may become major. This technique has the potential for
 significant interpretive payoff, rounding out characters who are
-otherwise so flat as to be “animated scenery” (Galef
-[1993](#ref-Galef1993Supporting), 11).
+otherwise so flat as to be “animated scenery” (Galef 1993, 11).
 
 ### Chapter 4: Deforming the Networks: Removing Key Characters
 
@@ -545,15 +492,12 @@ narrative arc, which would otherwise be very difficult to detect.
 
 I will conclude the dissertation by looking at the Gospels’ genre, which
 is still a matter of debate (despite the general consensus that they are
-Greco-Roman biography, as in Aune ([1987](#ref-Aune1987NTLiterary)) and
-Burridge ([2004](#ref-Burridge2004WhatAre))). I follow Ardanuy and
-Sporleder ([2014](#ref-ArdanuySporleder2014Clustering)) in using my
-social networks to cluster the Gospels and Burridge’s corpus by genre,
-in order to provide an additional data about the question. Later
-research will expand the scope to include other genres, such as
-Greco-Roman novels (as in Tolbert ([1990](#ref-Tolbert1990Gospel))) or
-Jewish biography (as outlined in Aune
-([1987](#ref-Aune1987NTLiterary))).
+Greco-Roman biography, as in Aune (1987) and Burridge (2004)). I follow
+Ardanuy and Sporleder (2014) in using my social networks to cluster the
+Gospels and Burridge’s corpus by genre, in order to provide an
+additional data about the question. Later research will expand the scope
+to include other genres, such as Greco-Roman novels (as in Tolbert
+(1990)) or Jewish biography (as outlined in Aune (1987)).
 
 ### Appendix
 
