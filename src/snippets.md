@@ -1,4 +1,4 @@
-# "I Have Called You Friends": Social Networks and Characterization in the Gospels
+# Footnote test
 
 Here is a paragraph with a footnote <span id="a1">[[1]](#f1)</span>.
 
