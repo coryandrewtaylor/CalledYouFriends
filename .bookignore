@@ -1,9 +1,7 @@
-# Unbuilt Markdown files
+# Build scripts and unbuilt Markdown files
 src/
+Pipfile*
 
 # Bibliography
 *.bib
 *.csl
-
-# Build scripts
-run_pandoc.cmd
