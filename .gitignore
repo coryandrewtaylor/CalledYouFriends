@@ -1,6 +1,9 @@
-# GitBook
+# GitBook build directories
 _book/
 node_modules/
+
+# VS Code metadata directory
+.vscode/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

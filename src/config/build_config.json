@@ -1,0 +1,14 @@
+{
+  "pandoc_command": [
+    "pandoc",
+    "--smart",
+    "--atx-headers",
+    "--from=markdown",
+    "--to=markdown_phpextra",
+    "--wrap=none",
+    "--bibliography=literature.bib",
+    "README.md"
+  ],
+  "output_file": "../doc/README.md",
+  "markdown_lookup": "./config/tag_lookup.json"
+}
