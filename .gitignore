@@ -2,6 +2,9 @@
 _book/
 node_modules/
 
+# Word documents
+*.docx
+
 # VS Code metadata directory
 .vscode/
 
