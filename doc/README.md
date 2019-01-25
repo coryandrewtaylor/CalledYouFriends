@@ -46,7 +46,7 @@ This juxtaposition has already proven useful. In my research on Luke, I found th
 
 As mentioned above, my dissertation will also extend current applications of Bakhtin’s thought to biblical characterization.[^7] Bakhtin’s notion that characters exist as a set of interactions between “character zones” applies directly to social networks, which are, at base, a set of relationships between actors. Social network analysis, I argue, thus provides a rigorous way to explore how a character’s majority or minority relates to their plot function. Take centrality and degree, for example: if a character has a high eigenvector centrality—that is, if that character’s node is connected to many other important nodes—it is intuitive that s/he will be a major character. On the other hand, a character with a high betweenness centrality, even if s/he has a low degree, will be an important link between different groups of characters. Likewise, a high closeness centrality could indicate that a character is essential to the cohesion of a community within the text, even if s/he does not play a central role in the narrative.
 
-Despite formalism’s prominence in my dissertation, I am sympathetic to critiques of it, especially that it is reductive (as in Man (1971) and Man (1973)) and that it relies on a fallacious understanding of the nature of data (Drucker 2014). Literary SNA certainly is reductive. However, reductiveness does not invalidate SNA as a methodology; rather, it simply indicates that SNA should be folded into the larger critical enterprise, so that it may benefit, and benefit from, other areas of criticism.
+Despite formalism’s prominence in my dissertation, I am sympathetic to critiques of it, especially that it is reductive (as in de Man (1971) and de Man (1973)) and that it relies on a fallacious understanding of the nature of data (Drucker 2014). Literary SNA certainly is reductive. However, reductiveness does not invalidate SNA as a methodology; rather, it simply indicates that SNA should be folded into the larger critical enterprise, so that it may benefit, and benefit from, other areas of criticism.
 
 Finally, in addition to formalist theory, I will build heavily on quantitative and comparative approaches to the Gospels. In the same way that Bennema uses his continua of characterization, I will use network measures to determine whether a character is major, minor, or somewhere in between. However, where Bennema collapses his continua into a single spectrum, I allow for the possibility that characters may be major in some ways but minor in others, and that those circumstances may not be reflected directly in the narrative. Moreover, unlike Bennema, who relies on close reading to classify his characters, my interpretation depends on distant reading. In this way, my approach is more like Burridge’s (2004) now classic study of Gospel genre, in fact a work of proto-DH, which studies patterns of structure and syntax instead of narratives proper.
 
@@ -140,6 +140,10 @@ Conway, Colleen M. 2002. “Speaking through Ambiguity: Minor Characters in the 
 
 De, Sagar S., Satchidananda Dehuri, and Gi-Nam Wang. 2012. “Machine Learning for Social Network Analysis: A Systematic Literature Review.” *IUP Journal of Information Technology* 8: 30–51. <http://papers.ssrn.com/abstract=2187186>.
 
+de Man, Paul. 1971. “The Dead-End of Formalist Criticism.” In *Blindness and Insight: Essays in the Rhetoric of Contemporary Criticism*, 229–45. Minneapolis: University of Minnesota Press.
+
+———. 1973. “Semiology and Rhetoric.” *Diacritics* 3 (3): 27–33. doi:[10.2307/464524](https://doi.org/10.2307/464524).
+
 DeConick, April. 1996. *Seek to See Him: Ascent and Vision Mysticism in the Gospel of Thomas*. Leiden: Brill.
 
 ———. 1997. “’Blessed are those who have not seen’ (John 20:29): Johannine Dramatization of an Early Christian Discourse.” In *The Nag Hammadi Library After Fifty Years*, edited by John D. Turner and Ann McGuire, 381–400. Leiden.
@@ -185,10 +189,6 @@ Malina, Bruce J., and John J. Pilch. 2006. *Social-Science Commentary on the Let
 Malina, Bruce J., and Richard L. Rohrbaugh. 1998. *Social-Science Commentary on the Gospel of John*. Minneapolis: Fortress.
 
 ———. 2003. *Social-Science Commentary on the Synoptic Gospels*. 2nd ed. Minneapolis: Fortress.
-
-Man, Paul de. 1971. “The Dead-End of Formalist Criticism.” In *Blindness and Insight: Essays in the Rhetoric of Contemporary Criticism*, 229–45. Minneapolis: University of Minnesota Press.
-
-———. 1973. “Semiology and Rhetoric.” *Diacritics* 3 (3): 27–33. doi:[10.2307/464524](https://doi.org/10.2307/464524).
 
 McCracken, David. 1993. “Character in the Boundary: Bakhtin’s Interdividuality in Biblical Narratives.” *Semeia* 63: 29–42.
 
