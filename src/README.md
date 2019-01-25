@@ -110,8 +110,6 @@ The appendix will describe the methodology I followed in producing and analyzing
 
 <div id="refs"></div>
 
-## Notes
-
 [^fn8]: For Bakhtin, "at a fundamental level, all language and thought is dialogical: each word or thought presupposes an answer. . . . \[E\]ach person, although having irreducible moral status, cannot be considered to have a consciousness in isolation" [@Webb2008Threshold, p. 19]. In the same vein, he conceives of genres as constantly evolving, with each writer engaging in dialogue with previous manifestations of the genre. <br/><br/>His "chronotopes" are the way space and time meld together in literature: "Time, as it were, thickens, takes on flesh, becomes artistically visible; likewise, space becomes charged and responsive to the movements of time, plot and history. This intersection of axes and fusion of indicators characterizes the artistic chronotope" [@BakhtinMedvedev1991FormalMethod, p. 131].
 
 [^fn9]: Allison and her colleagues---all scholars then working at, or otherwise affiliated with, the Stanford Literary Lab---coined the term "quantitative formalism" [@AllisonEtAl2011Quantitative]. By it, they mean using "precise---ideally, measurable---ways" [-@AllisonEtAl2011Quantitative, p. 6] to answer traditional formalist questions about genre, with the connotation that their tools were digital.

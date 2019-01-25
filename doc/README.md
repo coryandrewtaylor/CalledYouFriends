@@ -26,6 +26,10 @@ Researchers at Columbia University have also been prolific in literary SNA. Elso
 
 My approach to data collection will strike a balance between the two extremes. Initially, I will build the networks automatically, using machine learning algorithms to detect named and unnamed characters within the texts (Honnibal and Montani 2017; Taylor 2018) that I have developed to detect unnamed characters. However, to counteract the shortcomings inherent in automatic parsing, I will revise the networks by hand to ensure that they are complete.
 
+\[1\]: Though Moretti was far from the first author to incorporate SNA into literary studies, he brought the methodology into the mainstream, tying it to his broader approach of distant reading.
+
+\[2\]: For instance, `Scheherezade` (Elson 2012) and `SINNET` (Agarwal et al. 2013).
+
 ### Characterization in the Gospels {#characterization-in-the-gospels}
 
 Narrative criticism of the Gospels, and especially the study of characterization in them, is likewise thriving. Skinner and Bennema are the major recent scholars of Gospels characterization. Skinner’s revised dissertation (Skinner 2009) argues that many of John’s characters have imperfect faith in Jesus, as compared with the ideal faith set forth in John’s prologue (Jn 1:1–18). On the basis of his analysis, he argues against Riley’s (1995), DeConick’s (1996; 1997), and Pagels’ (1999) view that John’s portrayal of Thomas was a polemic against a Gnostic community responsible for the Gospel of Thomas. Skinner has also edited or co-edited several important books on Markan and Johannine characterization (Iverson and Skinner 2011; Skinner 2013; Hauge and Skinner 2014).
@@ -49,6 +53,16 @@ As mentioned above, my dissertation will also extend current applications of Bak
 Despite formalism’s prominence in my dissertation, I am sympathetic to critiques of it, especially that it is reductive (as in de Man (1971) and de Man (1973)) and that it relies on a fallacious understanding of the nature of data (Drucker 2014). Literary SNA certainly is reductive. However, reductiveness does not invalidate SNA as a methodology; rather, it simply indicates that SNA should be folded into the larger critical enterprise, so that it may benefit, and benefit from, other areas of criticism.
 
 Finally, in addition to formalist theory, I will build heavily on quantitative and comparative approaches to the Gospels. In the same way that Bennema uses his continua of characterization, I will use network measures to determine whether a character is major, minor, or somewhere in between. However, where Bennema collapses his continua into a single spectrum, I allow for the possibility that characters may be major in some ways but minor in others, and that those circumstances may not be reflected directly in the narrative. Moreover, unlike Bennema, who relies on close reading to classify his characters, my interpretation depends on distant reading. In this way, my approach is more like Burridge’s (2004) now classic study of Gospel genre, in fact a work of proto-DH, which studies patterns of structure and syntax instead of narratives proper.
+
+\[3\]: Allison and her colleagues—all scholars then working at, or otherwise affiliated with, the Stanford Literary Lab—coined the term “quantitative formalism” (Allison et al. 2011). By it, they mean using “precise—ideally, measurable—ways” (2011, 6) to answer traditional formalist questions about genre, with the connotation that their tools were digital.
+
+\[4\]: For Bakhtin, “at a fundamental level, all language and thought is dialogical: each word or thought presupposes an answer. . . . \[E\]ach person, although having irreducible moral status, cannot be considered to have a consciousness in isolation” (Webb 2008, 19). In the same vein, he conceives of genres as constantly evolving, with each writer engaging in dialogue with previous manifestations of the genre. <br/><br/>His “chronotopes” are the way space and time meld together in literature: “Time, as it were, thickens, takes on flesh, becomes artistically visible; likewise, space becomes charged and responsive to the movements of time, plot and history. This intersection of axes and fusion of indicators characterizes the artistic chronotope” (Bakhtin and Medvedev 1991, 131).
+
+\[5\]: Coll Ardanuy and Sporleder (2014) and Jayannavar et al. (2015) are notable exceptions to this trend.
+
+\[6\]: E.g. at the Sermon on the Mount (Mt 5–7), links would be recorded between Jesus, each of the disciples, and the crowd that was present.
+
+\[7\]: cf. McCracken (1993) and Webb (2008).
 
 ## Methodology {#methodology}
 
@@ -81,6 +95,8 @@ As with co-occurrences, I distinguish between direct and indirect speech. I cons
 If a character is explicitly identified in the narrative, I take that character as an actor in the network. I treat collective characters (e.g., “Disciples,” “Pharisees”) as a single actor. Any actor who is contemporary to the events in the narrative is eligible to be included in the network. Thus, natural and supernatural characters are both valid actors, while historical figures and characters in parables are not, since they are touchstones, not members of the text’s imagined society.
 
 I infer that a named disciple (e.g., “Peter,” “Andrew”) is part of the collective character “Disciples,” and I will make this inference explicit in the network data. However, I will include the character only after s/he is introduced within the text. Because John does not give names for each of the twelve apostles, I will include “The Twelve” as a collective character. However, in the Synoptics, each of the twelve apostles has a name, so I will not include that character. In Luke, I will treat the 72 disciples as a collective character (“The Seventy-Two”). Moreover, once they are introduced in Lk 10, I will treat them like a named disciple and infer that they are part of the collective character “Disciples.”
+
+\[8\]: On the usefulness of machine learning for SNA, see e.g. De, Dehuri, and Wang (2012).
 
 ## Structure {#structure}
 
@@ -235,21 +251,3 @@ Webb, Geoff R. 2008. *Mark at the Threshold: Applying Bakhtinian Categories to M
 Williams, Joel F. 1994. *Other Followers of Jesus: Minor Characters as Major Figures in Mark’s Gospel*. Journal for the Study of the New Testament Supplement Series 102. Sheffield: JSOT Press.
 
 Woloch, Alex. 2003. *The One vs. the Many: Minor Characters and the Space of the Protagonist in the Novel*. Princeton: Princeton University Press.
-
-## Notes {#notes}
-
-\[1\]: Though Moretti was far from the first author to incorporate SNA into literary studies, he brought the methodology into the mainstream, tying it to his broader approach of distant reading.
-
-\[2\]: For instance, `Scheherezade` (Elson 2012) and `SINNET` (Agarwal et al. 2013).
-
-\[3\]: Allison and her colleagues—all scholars then working at, or otherwise affiliated with, the Stanford Literary Lab—coined the term “quantitative formalism” (Allison et al. 2011). By it, they mean using “precise—ideally, measurable—ways” (2011, 6) to answer traditional formalist questions about genre, with the connotation that their tools were digital.
-
-\[4\]: For Bakhtin, “at a fundamental level, all language and thought is dialogical: each word or thought presupposes an answer. . . . \[E\]ach person, although having irreducible moral status, cannot be considered to have a consciousness in isolation” (Webb 2008, 19). In the same vein, he conceives of genres as constantly evolving, with each writer engaging in dialogue with previous manifestations of the genre. <br/><br/>His “chronotopes” are the way space and time meld together in literature: “Time, as it were, thickens, takes on flesh, becomes artistically visible; likewise, space becomes charged and responsive to the movements of time, plot and history. This intersection of axes and fusion of indicators characterizes the artistic chronotope” (Bakhtin and Medvedev 1991, 131).
-
-\[5\]: Coll Ardanuy and Sporleder (2014) and Jayannavar et al. (2015) are notable exceptions to this trend.
-
-\[6\]: E.g. at the Sermon on the Mount (Mt 5–7), links would be recorded between Jesus, each of the disciples, and the crowd that was present.
-
-\[7\]: cf. McCracken (1993) and Webb (2008).
-
-\[8\]: On the usefulness of machine learning for SNA, see e.g. De, Dehuri, and Wang (2012).
