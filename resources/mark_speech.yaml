@@ -1,0 +1,56 @@
+---
+textName: Mark
+dialogue:
+- ref: "1:4-5"
+  direct: false
+  speakers:
+    - John the Baptist
+  hearers:
+    - Judeans
+    - Residents of Jerusalem
+- ref: "1:5"
+  direct: false
+  speakers:
+    - Judeans
+    - Residents of Jerusalem
+  hearers:
+    - John the Baptist
+- ref: "1:7-8"
+  direct: true
+  speakers:
+    - John the Baptist
+  hearers:
+    - Judeans
+    - Residents of Jerusalem
+- ref: "1:11"
+  direct: true
+  speakers:
+    - God
+  hearers:
+    - Jesus
+- ref: "1:13"
+  direct: false
+  speakers:
+    - Satan
+  hearers:
+    - Jesus
+- ref: "1:15"
+  direct: true
+  speakers:
+    - Jesus
+  hearers:
+    - Galilaeans
+- ref: "1:17"
+  direct: true
+  speakers:
+    - Jesus
+  hearers:
+    - Simon
+    - Andrew
+- ref: "1:20"
+  direct: false
+  speakers:
+    - Jesus
+  hearers:
+    - James son of Zebedee
+    - John son of Zebedee

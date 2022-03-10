@@ -1,0 +1,181 @@
+---
+textName: Mark
+scenes:
+- ref: "1:4-11"
+  location: Jordan River
+  characters:
+    - John the Baptist
+    - Judeans
+    - Residents of Jerusalem
+    - Jesus
+    - Holy Spirit
+    - God
+- ref: "1:12-13"
+  location: The wilderness
+  characters:
+    - Jesus
+    - Holy Spirit
+    - Satan
+    - Angels
+- ref: "1:15"
+  location: Unknown
+  characters:
+    - John the Baptist
+    - John the Baptist's captors
+- ref: "1:14-15"
+  location: Galilee
+  characters:
+    - Jesus
+    - Galilaeans
+- ref: "1:16-18"
+  location: Sea of Galilee
+  characters:
+    - Jesus
+    - Simon
+    - Andrew
+- ref: "1:19-20"
+  location: Sea of Galilee
+  characters:
+    - Jesus
+    - Simon
+    - Andrew
+    - James son of Zebedee
+    - John son of Zebedee
+    - Zebedee
+    - Zebedee's hired men
+- ref: "1:21-28"
+  location: Capernaum
+  characters:
+    - Jesus
+    - Simon
+    - Andrew
+    - James son of Zebedee
+    - John son of Zebedee
+    - Synagogue attendees in Capernaum
+    - Possessed man (Capernaum synagogue)
+    - Unclean spirit (Capernaum synagogue)
+    - Scribes
+- ref: "1:29-31"
+  location: 
+  characters:
+    - ""
+- ref: "1:32-34"
+  location: 
+  characters:
+    - ""
+- ref: "1:35-38"
+  location: 
+  characters:
+    - ""
+- ref: "1:39"
+  location: 
+  characters:
+    - ""
+- ref: "1:40-44"
+  location: 
+  characters:
+    - ""
+- ref: "1:45"
+  location: 
+  characters:
+    - ""
+- ref: "2:1-12"
+  location: 
+  characters:
+    - ""
+- ref: "2:13-14"
+  location: 
+  characters:
+    - ""
+- ref: "2:15-22"
+  location: 
+  characters:
+    - ""
+- ref: "2:23-28"
+  location: 
+  characters:
+    - ""
+- ref: "3:1-5"
+  location: 
+  characters:
+    - ""
+- ref: "3:6"
+  location: 
+  characters:
+    - ""
+- ref: "3:7-12"
+  location: 
+  characters:
+    - ""
+- ref: "3:13-19"
+  location: 
+  characters:
+    - ""
+- ref: "3:20-35"
+  location: 
+  characters:
+    - ""
+- ref: "4:1-9"
+  location: 
+  characters:
+    - ""
+- ref: "4:10-34"
+  location: 
+  characters:
+    - ""
+- ref: "4:35-41"
+  location: 
+  characters:
+    - ""
+- ref: "5:1-19"
+  location: 
+  characters:
+    - ""
+- ref: "5:20"
+  location: 
+  characters:
+    - ""
+- ref: "5:21-36"
+  location: 
+  characters:
+    - ""
+- ref: "5:37-43"
+  location: 
+  characters:
+    - ""
+- ref: "6:1-6a"
+  location: 
+  characters:
+    - ""
+- ref: "6:6b"
+  location: 
+  characters:
+    - ""
+- ref: "6:7-11"
+  location: 
+  characters:
+    - ""
+- ref: "6:12-13"
+  location: 
+  characters:
+    - ""
+- ref: "6:14-16"
+  location: 
+  characters:
+    - ""
+- ref: "6:17-20"
+  location: 
+  characters:
+    - ""
+- ref: "6:21-28"
+  location: 
+  characters:
+    - ""
+- ref: "6:29"
+  location: 
+  characters:
+    - ""
+- ref: "6:30-"
+  location: 
+  characters:
+    - ""
