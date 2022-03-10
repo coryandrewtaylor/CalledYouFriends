@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Speech",
+  "definitions": {
+    "Speech": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "textName": {
+          "$ref": "common.schema.json#/definitions/TextName"
+        },
+        "dialogue": {
+          "title": "Instances of Dialogue",
+          "description": "Array of descriptions of speech acts in a text",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/DialogueInstance"
+          }
+        }
+      },
+      "required": ["dialogue", "textName"],
+      "title": "Speech"
+    },
+    "DialogueInstance": {
+      "title": "Instance of Dialogue",
+      "description": "Describes a single instance of a character(s) saying something to someone else.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "ref": {
+          "$ref": "common.schema.json#/definitions/VerseReference"
+        },
+        "direct": {
+          "title": "Direct Speech",
+          "description": "Indicates whether a instance of dialogue is recorded as direct speech (\"They said, '...'\") or indirect speech (\"They said that ...\"). `true` for direct speech, `false` for indirect speech.",
+          "type": "boolean"
+        },
+        "speakers": {
+          "title": "Speakers",
+          "description": "Character(s) who speak an instance of dialogue. Must always be an array, even if only a single character is speaking. If a character(s) speak to themselves, copy this character list to `hearers`.",
+          "$ref": "common.schema.json#/definitions/CharacterArray"
+        },
+        "hearers": {
+          "title": "Hearers",
+          "description": "Character(s) who are recipients of an instance of dialogue (regardless of whether they understand what is being said). Must always be an array, even if only a single character is the hearer. If a character(s) speak to themselves, use the same character list as `speakers`.",
+          "$ref": "common.schema.json#/definitions/CharacterArray"
+        }
+      },
+      "required": ["direct", "hearers", "ref", "speakers"]
+    }
+  }
+}

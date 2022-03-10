@@ -1,0 +1,50 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Scenes",
+    "definitions": {
+        "Scenes": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "textName": {
+                    "$ref": "common.schema.json#/definitions/TextName"
+                },
+                "scenes": {
+                    "title": "List of Scenes",
+                    "description": "Array of descriptions of scenes in a text",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/SceneElement"
+                    }
+                }
+            },
+            "required": [
+                "scenes",
+                "textName"
+            ]
+        },
+        "SceneElement": {
+            "title": "Scene Description",
+            "description": "Describes a single scene in a text. A new scene begins when the text changes time or place.",
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "ref": {
+              "$ref": "common.schema.json#/definitions/VerseReference"
+            },
+            "location": {
+              "title": "Scene Location",
+              "description": "The place where the scene is set.",
+              "type": "string",
+              "minLength": 1
+            },
+            "characters": {
+              "title": "Character List",
+              "description": "Array of characters who are present in a scene.",
+              "$ref": "common.schema.json#/definitions/CharacterArray"
+            }
+          },
+          "required": ["characters", "location", "ref"]
+        }
+    }
+}

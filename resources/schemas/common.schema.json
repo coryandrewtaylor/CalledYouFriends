@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "schemas/common",
+  "definitions": {
+    "CharacterArray": {
+      "title": "List of Characters",
+      "description": "List of characters involved in a relationship. Elements must be unique.",
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "TextName": {
+      "title": "Text Name",
+      "description": "The name of the text being described (e.g. Matthew, Mark, Life of Caesar)",
+      "type": "string",
+      "minLength": 1
+    },
+    "VerseReference": {
+      "title": "Verse Reference",
+      "description": "Verse reference for a scene or instance of dialogue in biblical text. Must follow SBL conventions, like 1:23, 1:23-34, 1:2-3:4, and so on. First-level subdivisions of verses are allowed on both sides of the hyphen, like 1:2b, 1:2-3a, and 1:2b-3a.",
+      "type": "string",
+      "pattern": "^\\d{1,2}:\\d{1,2}[a-z]?(?:-(?:\\d{1,2}:)?\\d{1,2}[a-z]?)?$"
+    }
+  }
+}
