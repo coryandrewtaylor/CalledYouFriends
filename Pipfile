@@ -5,11 +5,13 @@ name = "pypi"
 
 [packages]
 plac = "*"
+pyyaml = "*"
+networkx = "*"
+pandas = "*"
 
 [dev-packages]
-prospector = "*"
-yapf = "*"
-pyyaml = ">=4.2b1"
+black = "*"
+mypy = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.9"
