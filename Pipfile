@@ -8,6 +8,7 @@ plac = "*"
 pyyaml = "*"
 networkx = "*"
 pandas = "*"
+jupyter = "*"
 
 [dev-packages]
 black = "*"
