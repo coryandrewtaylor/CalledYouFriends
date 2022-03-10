@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "esbenp.prettier-vscode",
+        "ms-python.python",
+        "redhat.vscode-yaml",
+        "yzhang.markdown-all-in-one",
+        "visualstudioexptteam.vscodeintellicode",
+        "littlefoxteam.vscode-python-test-adapter"
+    ]
+}
