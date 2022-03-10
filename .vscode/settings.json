@@ -1,0 +1,6 @@
+{
+  "yaml.schemas": {
+    "resources/schemas/scene.schema.json": "*_scenes.yaml",
+    "resources/schemas/speech.schema.json": "*_speech.yaml"
+  }
+}

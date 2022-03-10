@@ -6,7 +6,8 @@ node_modules/
 *.docx
 
 # VS Code metadata directory
-.vscode/
+.vscode/*
+!.vscode/settings.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
