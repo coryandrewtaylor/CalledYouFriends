@@ -5,6 +5,7 @@
         "redhat.vscode-yaml",
         "yzhang.markdown-all-in-one",
         "visualstudioexptteam.vscodeintellicode",
-        "littlefoxteam.vscode-python-test-adapter"
+        "littlefoxteam.vscode-python-test-adapter",
+        "bungcip.better-toml"
     ]
 }
